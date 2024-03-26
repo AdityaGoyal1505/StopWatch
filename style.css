@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+*{
+    font-family: 'Jura';
+}
+
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.container{
+    color: white;
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#timerDisplay{
+    font-size: 150px;
+    margin-top: 15px;
+
+}
+button{
+    padding: 25px;
+    border: none;
+    margin: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(251, 255, 0);
+    color: rgb(255, 0, 0);
+}
+
+button:disabled{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+button:disabled::after{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
